@@ -77,6 +77,42 @@
             "stopAtEntry": false
         },
         {
+            "name": "Advent Day3 Part1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/Advent/bin/Debug/net9.0/Advent.dll",
+            "args": [
+                "day3",
+                "part1",
+                "--file",
+                "src/Advent.Day3/day3-input.txt"
+            ],
+            "cwd": "${workspaceFolder}",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Advent Day3 Part2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/Advent/bin/Debug/net9.0/Advent.dll",
+            "args": [
+                "day3",
+                "part2",
+                "--file",
+                "src/Advent.Day3/day3-input.txt"
+            ],
+            "cwd": "${workspaceFolder}",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
