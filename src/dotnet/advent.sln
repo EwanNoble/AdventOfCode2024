@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{882BDB13-DFCE-4802-922A-73252B3DBBEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advent", "Advent\Advent.csproj", "{5F560C28-1FA8-4B45-BC6F-B94E2CC809D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advent", "src\Advent\Advent.csproj", "{5F560C28-1FA8-4B45-BC6F-B94E2CC809D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent.Common", "Advent.Common\Advent.Common.csproj", "{F1F4F393-5EC0-4C61-9B5A-A192995A4D37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent.Common", "src\Advent.Common\Advent.Common.csproj", "{F1F4F393-5EC0-4C61-9B5A-A192995A4D37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent.Day1", "Advent.Day1\Advent.Day1.csproj", "{6D55240C-2DD3-4F21-8535-39C016FE51F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent.Day1", "src\Advent.Day1\Advent.Day1.csproj", "{6D55240C-2DD3-4F21-8535-39C016FE51F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent.Day2", "Advent.Day2\Advent.Day2.csproj", "{7AE768B4-F178-4C15-ACAA-A77E04CB5C29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent.Day2", "src\Advent.Day2\Advent.Day2.csproj", "{7AE768B4-F178-4C15-ACAA-A77E04CB5C29}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent.Day3", "src\Advent.Day3\Advent.Day3.csproj", "{552C177C-FCB8-47B4-8B32-2DCF14698998}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent.Day3", "Advent.Day3\Advent.Day3.csproj", "{552C177C-FCB8-47B4-8B32-2DCF14698998}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,13 +42,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5F560C28-1FA8-4B45-BC6F-B94E2CC809D5} = {882BDB13-DFCE-4802-922A-73252B3DBBEE}
-		{F1F4F393-5EC0-4C61-9B5A-A192995A4D37} = {882BDB13-DFCE-4802-922A-73252B3DBBEE}
-		{6D55240C-2DD3-4F21-8535-39C016FE51F2} = {882BDB13-DFCE-4802-922A-73252B3DBBEE}
-		{7AE768B4-F178-4C15-ACAA-A77E04CB5C29} = {882BDB13-DFCE-4802-922A-73252B3DBBEE}
-		{552C177C-FCB8-47B4-8B32-2DCF14698998} = {882BDB13-DFCE-4802-922A-73252B3DBBEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B6D5F4C-E27D-4EFC-94FA-66812231BE08}
